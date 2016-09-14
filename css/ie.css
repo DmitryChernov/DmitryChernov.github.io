@@ -1,0 +1,18 @@
+#text_slider div{background:none !important}
+#advanced ul li.trigger_adv > span, #error_message{behavior:url(js/PIE.htc);position:relative}
+.closebutton,.myclosebutton{behavior:url(js/PIE.htc);}
+.kwicks li{filter:alpha(opacity=50)}
+.kwicks li.active{filter:alpha(opacity=100)}
+*+html{overflow:auto;}
+*+html #constuction-box {margin-top:-245px;}
+*+html #intro-box{margin-top:-195px;}
+*+html #page-404 #search input {margin:-1px 0 0 0;}
+*+html .sf-menu > li > a i {padding: 12px 22px 12px 21px;}
+*+html #page1 #content {
+	position:relative;
+	zoom:1;
+	margin:-2px 0 0 0;
+}
+*+html #page1 .aside-border {padding:29px 0 30px;}
+*+html .link-2 {margin:0;}
+*+html .list-1 {position:relative;zoom:1;}

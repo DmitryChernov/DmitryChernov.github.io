@@ -1,0 +1,91 @@
+#coin-slider{
+	overflow:hidden;
+	background:url(../images/loader.gif) 50% 50% no-repeat;
+	width:670px;
+	height:416px;
+	left:0;
+	top:0;
+	margin:0;
+	position:relative;
+}
+.coin-slider{
+	position:relative;
+	margin:0 auto;
+	width:940px;
+	height:416px !important;
+	overflow:hidden;
+}
+	#page1 .coin-slider{
+		position:relative;
+		margin:0 auto;
+		width:1000px;
+		height:416px !important;
+	}
+.coin-slider a{text-decoration:none;outline:none;border:none}
+.cs-buttons{
+	position:absolute;
+	bottom:0;
+	right:0;
+	top:0;
+}
+.cs-buttons a{
+	margin:0;
+	padding:0;
+	height:103px;
+	border-top:1px solid #7e0000 !important;
+	width:330px;
+	background: url(../images/pagination-tail1.gif) #840000;
+	display:block;
+	position:relative;
+}
+.cs-buttons a.button-last {background:url(../images/pagination-tail2.gif) repeat-x 0 0; border-top:1px solid #7e0000 !important;}
+.cs-buttons a.button-next {background:url(../images/pagination-next-tail.gif) repeat-x 0 0 !important; border-top:1px solid #7e0000 !important;}
+.cs-buttons a:hover,.cs-buttons a.cs-active{
+	background: url(../images/pagination-active-tail.gif) #840000 !important;
+	border-top:1px solid #7e0000 !important;
+}
+	.cs-buttons span, .cs-buttons strong, .cs-buttons b {display:block;}
+	.cs-buttons span {
+		position:relative;
+		padding:22px 23px 5px 29px;
+		height:75px;
+		background:url(../images/pagination-bg1.gif) no-repeat 0 0;
+		overflow:hidden;
+	}
+	.coin-slider .cs-buttons a.cs-active span, .coin-slider .cs-buttons a:hover span {background: url(../images/pagination-active-bg.gif) no-repeat 0 0 !important;}
+	.cs-buttons a.button-next span {background:url(../images/pagination-next-bg.gif) no-repeat 0 0 !important;}
+	.cs-buttons a.button-last span {background:url(../images/pagination-bg2.gif) no-repeat 0 0;}
+	.cs-buttons a i {
+		display:none;
+		position:absolute;
+		left:-17px;
+		top:32px;
+		background:url(../images/pagination-marker.png) no-repeat 0 0;
+		width:17px;
+		height:34px;
+	}
+	.cs-buttons a.cs-active i, .cs-buttons a:hover i {display:block;}
+	.cs-buttons strong, .cs-buttons b {
+		font-weight:normal;
+		text-transform:uppercase;
+	}
+	.cs-buttons strong {
+		font-size:22px;
+		color:#fff;
+		line-height:28px;
+		letter-spacing:-1px;
+		padding-top:5px;
+	}
+	.cs-buttons strong.extra {font-size:25px; padding-top:8px;}
+	.cs-buttons strong.extra2 {font-size:28px; padding-top:20px;}	
+	.cs-buttons b {
+		font-size:11px;
+		line-height:15px;
+		color:#fffb98;
+		margin:-2px 0 0 0;
+		padding:0 0 0 3px;
+		width:270px;
+	}
+#cs-title-coin-slider, .cs-title {display:none !important;}
+.cs-prev,.cs-next{background:#262626;color:#fff;padding:0px 10px; display:none;}
+.cs-prev:hover,.cs-next:hover{background:#fff;color:#262626}

@@ -1,0 +1,107 @@
+
+.sf-menu{
+	font-size:0;
+	line-height:0;
+	height:43px;
+	padding:0;
+	margin:0;
+}
+.sf-menu ul{
+	position:absolute;
+	top:-999em;
+	width:226px;
+	left:0;
+	display:none;
+	margin:0;
+}
+.sf-menu > li{
+	float:left;
+	position:relative;
+	padding:0;
+	background:url(../images/nav-separator.gif) no-repeat 0 0;
+}
+	.sf-menu > li:first-child {background:none;}
+.sf-menu > li > a {
+	text-decoration:none;
+	display:block;
+	text-transform:uppercase;
+	font-size:14px;
+	line-height:18px;
+	color:#f9f9f9;
+	font-weight:bold;
+	position:relative;
+}
+	.sf-menu > li > a i {
+		position:relative;
+		z-index:5;
+		display:block;
+		padding: 12px 22px 13px 21px;
+		font-style:normal;
+	}
+	.sf-menu > li > a b {
+		position:absolute;
+		display:block;
+		height:0;
+		width:100%;
+		bottom:0;
+		z-index:3;
+		background: url(../images/nav-hover-tail.gif) repeat-x 0 0 #3d3938;
+	}
+	
+	.sf-menu > li > a.home-link {
+		padding:0;
+		width:42px;
+		height:43px;
+		border:none;
+		position:relative;
+	}
+		.sf-menu > li > a.home-link i {
+			padding:0;
+			display:block;
+			height:100%;
+		}
+		.sf-menu > li > a.home-link span.home-link-bg {
+			display:block;
+			height:100%;
+			background:url(../images/home-link.gif) no-repeat 0 0;
+			position: relative;
+			z-index:5;
+		}
+		.sf-menu > li > a.home-link em {
+			display:block;
+			background:url(../images/home-link-marker.gif) no-repeat 0 bottom;
+			position:absolute;
+			top:100%;
+			bottom:0;
+			width:100%;
+		}
+	.sf-menu > li.current > a.home-link em {bottom:-5px;}
+	.sf-menu > li.current > a b {height:43px;}
+	.sf-menu a.current {text-decoration:none;}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul{top:43px; left:0;z-index:99;}
+.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul{top:-999em}
+.sf-menu li.current,.sf-menu li:hover,.sf-menu li.sfHover{
+	text-decoration:none;
+}
+.sf-menu li li a{
+	display:block;
+	font-size:12px;
+	line-height:15px;
+	color:#2e2e2e;
+	border:1px solid #fff;
+	border-top:none;
+	background:url(../images/sub-nav-marker.gif) no-repeat 8px -35px #f1f1f2;
+	padding:7px 5px 5px 16px;
+	text-decoration:none;
+}
+.sf-menu li li a:hover, .sf-menu li li.sfHover > a, .sf-menu li li.current > a{
+	background:url(../images/sub-nav-marker.gif) no-repeat 8px 14px #b40000;
+	color:#e5e5e5;
+}
+.sf-menu li li{
+	float:none;
+	position:relative;
+	padding:0;
+	margin:0;
+}
+.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul{left:225px;top:0px;}
